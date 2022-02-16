@@ -8,8 +8,10 @@
 
     <!--to reference we are going to be annotation driven, we need to add the <context:annotation-config/>-->
 
+    <!--enables the spring core annotations-->
     <context:annotation-config/>
     <context:component-scan base-package="com.revature"/>
 
+    <!--enables the annotations we will be using for mvc.-->
     <mvc:annotation-driven/>
 </beans>
